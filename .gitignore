@@ -39,3 +39,10 @@ Icon?
 # Others
 .idea/
 *.swp
+
+# Development server files
+src/devServer.ts
+
+# Test files
+src/services/ListSubscriptions/testListSubscriptions.ts
+.yarn/install-state.gz

@@ -5,11 +5,13 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "dev-server": "ts-node src/devServer.ts"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.5",
-    "typescript": "^5.0.0"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   },
   "dependencies": {
     "@azure/arm-managementgroups": "^2.0.2",
