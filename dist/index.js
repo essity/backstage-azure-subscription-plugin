@@ -1,3 +1,0 @@
-"use strict";
-// Entry point for the backend plugin
-// ...existing code...
