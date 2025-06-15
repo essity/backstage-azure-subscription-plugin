@@ -1,0 +1,1 @@
+export { azureSubscriptionsPlugin } from './plugin';
